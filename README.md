@@ -50,18 +50,18 @@ add a spi groups and add user to this groups
 
 Why to program a eeprom?
 
-Well it start very harmless, with the promise to upgrade my video card.
+Well it started very harmless, with the promise to upgrade my video card.
 
 My bad was that i did not lookup the exact chip version (of course not the just the type, that required to disassemble the whole card, and i hestitated on that, something that was required afterwards anyway...).
 
 So it ended up with a bricked graphic card. And from there no suggestion did work.
 I really like shared knowledge from the web, but in this case, it was a whole bunch of cooking instructions without naming the ingredients.
 The following points may help someone with the same situtation:
-* flashing graphics cards is nice if you stick to to the same type and manufacturer
+* flashing a graphics cards is nice if you stick to to the same type and manufacturer
 * make a backup of the content before flashing
 * a wrong video-bios resulting in a pc not booting
-* the nvflash tool is avaibable in many shapes and colors (beware using -4...) 
+* the nvflash tool is available in many shapes and colors (beware using -4...) 
 * the existence of some nice explanations how to unbrick suggests that this is not something two or three people may have expirienced
-* the instructions with shortening some pins on the eeprom, did not make sense when trying to align that with the chip manual, at least not for the type of chip that was used on my card (one option might be to get your pc to boot and then remove the bridge, to allow programming...)
+* the instructions with shortening some pins on the eeprom, did not make sense when trying to align that with the chip manual, at least not for the type of chip that was used on my card (one option might be to get your pc to boot and then remove the bridge, to allow programming (untested)...)
 * using a raspi allowed to bring it back to life :) 
 
