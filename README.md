@@ -61,7 +61,7 @@ The following points may help someone with the same situtation:
 * make a backup of the content before flashing
 * a wrong video-bios resulting in a pc not booting
 * the nvflash tool is available in many shapes and colors (beware using -4...) 
-* building a bootable stick with windows works best with rufus, download openDos (minimal is sufficent) and with rufus select the .img
+* building a bootable stick with windows works best with rufus, download freeDos (minimal is sufficent) and with rufus select the .img
 * the existence of some nice explanations how to unbrick suggests that this is not something two or three people may have expirienced
 * the instructions with shortening some pins on the eeprom, did not make sense when trying to align that with the chip manual, at least not for the type of chip that was used on my card (one option might be to get your pc to boot and then remove the bridge, to allow programming (untested)...)
 * using a raspi allowed to bring it back to life :) 
