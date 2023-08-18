@@ -50,7 +50,7 @@ add a spi groups and add user to this groups
 
 Why to program a eeprom?
 
-Well it started very harmless, with the promise to upgrade my video card.
+Well it started very harmless, with the promise there is the possiblity to upgrade my video card.
 
 My bad was that i did not lookup the exact chip version (of course not the just the type, that required to disassemble the whole card, and i hestitated on that, something that was required afterwards anyway...).
 
@@ -63,6 +63,6 @@ The following points may help someone with the same situtation:
 * the nvflash tool is available in many shapes and colors (beware using -4...) 
 * building a bootable stick with windows works best with rufus, download freeDos (minimal is sufficent) and with rufus select the .img
 * the existence of some nice explanations how to unbrick suggests that this is not something two or three people may have expirienced
-* the instructions with shortening some pins on the eeprom, did not make sense when trying to align that with the chip manual, at least not for the type of chip that was used on my card (one option might be to get your pc to boot and then remove the bridge, to allow programming (untested)...)
+* the instructions with shortening some pins on the eeprom (the option might be to get your pc to boot and then remove the bridge, to allow programming (untested)...)
 * using a raspi allowed to bring it back to life :) 
 
