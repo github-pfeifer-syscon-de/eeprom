@@ -59,6 +59,7 @@ I really like shared knowledge from the web, but in this case, it was a whole bu
 The following points may help someone with the same situtation:
 * flashing a graphics cards is nice if you stick to to the same type and manufacturer
 * make a backup of the content before flashing
+* activate an alternative video output, e.g. cpu-graphic
 * a wrong video-bios resulting in a pc not booting
 * the nvflash tool is available in many shapes and colors (beware using -4...) 
 * building a bootable stick with windows works best with rufus, download freeDos (minimal is sufficent) and with rufus select the .img
