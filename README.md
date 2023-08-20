@@ -30,7 +30,7 @@ dtparam=spi=on
 
 ## Warning
 
-It is not a application, please look into the source, you will most likely need to adapt it (check the chip manual, for Program block size 256Byte, Size 128kByte, Erase page size 32kByte).
+It is not a application, please look into the source, you will most likely need to adapt it (check the chip manual, for program block size 256Byte, size 128kByte, erase page size 32kByte (used during program)).
 
 If you want other user than root have access to spidev device you may probably need to add a file with the following udev rules in your /etc/udev.d directory. 
 
