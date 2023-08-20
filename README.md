@@ -64,6 +64,6 @@ The following points may help someone with the same situtation:
 * the nvflash tool is available in many shapes and colors (beware using -4...) 
 * building a bootable stick with windows works best with rufus, download freeDos (lightUSB is sufficent) and with rufus select the .img
 * the existence of some nice explanations how to unbrick suggests that this is not something two or three people may have expirienced
-* the instructions with shortening some pins on the eeprom, looked a bit strange at first (the option might be to get your pc to boot and then remove the bridge, to allow programming (untested)...)
-* using a raspi allowed to bring it back to life :) 
+* the instructions with shortening some pins on the eeprom, looked a bit strange at first (as it will connect two logic outputs (1-5 Cs<->Si), or even worse (1-8 Cs<->Vcc), but it will prevent the wrong firmeware being read from the chip), so your pc gets past POST and will boot. After that it should be possible to reprogramm the eeprom when the bridge is removed (use -y as the video-bios will not be available) (untested).
+* the alternative is using a raspi to bring it back to life, worked for me :) 
 
