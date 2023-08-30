@@ -8,7 +8,7 @@ for the pyA20 python library https://pypi.python.org/pypi/pyA20
 
 ## Connecting
 
-For me it was possible to program the eeprom in place.
+For me it was possible to program the eeprom in place (graphics card removed from system).
 
 I used the following connections AT25F1024:
 
